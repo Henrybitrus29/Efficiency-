@@ -1,0 +1,227 @@
+/* General Styles */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+/* Colors */
+.purple {
+  color: #8c51ff;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: #8c51ff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #7233ff;
+}
+
+/* Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  margin-bottom: 40px;
+}
+
+.hero .chart {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Features Section */
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Secure & Licensed Crypto Investment */
+.secure-crypto {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.secure-crypto img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tailored for Your Needs */
+.tailored-needs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.plan {
+  text-align: center;
+  padding: 40px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+/* Empower Your Investment Journey */
+.investment-journey {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.investment-journey img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.investment-journey .icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.investment-journey .icons img {
+  max-width: 80px;
+  height: auto;
+}
+
+/* Choose Your Investment Strategy */
+.investment-strategy {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.strategy {
+  text-align: center;
+  padding: 40px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+.strategy img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Real Success Stories */
+.success-stories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.story {
+  text-align: center;
+  padding: 40px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+.story img {
+  max-width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Your Questions Answered */
+.faq {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1a1a1a;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  .features,
+  .tailored-needs,
+  .investment-strategy,
+  .success-stories {
+    grid-template-columns: 1fr;
+  }
+}
